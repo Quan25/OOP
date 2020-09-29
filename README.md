@@ -45,3 +45,4 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 ```
   export CLASSPATH=$CLASSPATH:path/to/Jukebox/
 ```
+4. Run `java Jukebox` to see the output
