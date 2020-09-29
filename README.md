@@ -36,7 +36,12 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 </details>
 
 # How to Run
-- add javazoom package the classpath
+1. Add javazoom package the classpath
 ```
-export CLASSPATH=$CLASSPATH:path/to/Jukebox/JLayer1.0.1/jl1.0.1.jar 
+  export CLASSPATH=$CLASSPATH:path/to/Jukebox/JLayer1.0.1/jl1.0.1.jar
+```
+2. Run `javac *.java` on your root directory
+3. Add the project to java CLASSPATH
+```
+  export CLASSPATH=$CLASSPATH:path/to/Jukebox/
 ```
