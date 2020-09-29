@@ -1,8 +1,9 @@
 # Jukebox
 
 <p align="center">
-  <img src='https://npu85.npu.edu/~henry/npu/classes/oo/uml_tutorial/slide/juke_box.jpg' alt='Sublime's custom image'/>
+  <img src='juke_box.jpg' alt='Jukebox image'/>
 </p>
+
 # Description
 - Design a Juke Box that allows customers to select songs they want played or to submit a play list that they have already created previously. If a request is made for song that is not contained by a local Juke Box, it will query for that song from other Jukeboxes elsewhere in the country - thus they are networked. Although reminiscent of Napster, like the original jukebox, we want to provide a mechanism for owners, record companies and artists to earn a profit. Therefore, for this Juke Box we want to provide not only a coin drop and cash feed mechanism, but also a card swipe mechanism and a cell dial payment capability.
 
