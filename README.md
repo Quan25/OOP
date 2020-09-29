@@ -28,9 +28,9 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 </details>
 <details>
    <summary>Class Diagram</summary>
-   <p><img src='diagrams/class_diagram.png' alt='Use Case Diagram'/></p>
+   <p><img src='diagrams/class_diagram1.png' alt='Use Case Diagram'/></p>
 </details>
 <details>
    <summary>Sequence Diagram</summary>
-   <p><img src='diagrams/sequence_diagram.png' alt='Use Case Diagram'/></p>
+   <p><img src='diagrams/sequence_diagram1.png' alt='Use Case Diagram'/></p>
 </details>
