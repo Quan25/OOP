@@ -24,7 +24,7 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 # Diagrams
 <details>
    <summary>Use Case Diagram</summary>
-   ![Use Case Diagram](https://github.com/Quan25/Jukebox/blob/master/use_case_diagram.png "Use Case Diagram")
+   <p><img src='https://github.com/Quan25/Jukebox/blob/master/use_case_diagram.png' alt='Use Case Diagram'/></p>
 </details>
 <details>
    <summary>Class Diagram</summary>
