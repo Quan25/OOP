@@ -34,3 +34,9 @@ To provide a mechanism for owners, record companies and artists to earn a profit
    <summary>Sequence Diagram</summary>
    <p><img src='diagrams/sequence_diagram1.png' alt='Use Case Diagram'/></p>
 </details>
+
+# How to Run
+- add javazoom package the classpath
+```
+export CLASSPATH=$CLASSPATH:path/to/Jukebox/JLayer1.0.1/jl1.0.1.jar 
+```
