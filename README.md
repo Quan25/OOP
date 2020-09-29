@@ -24,13 +24,13 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 # Diagrams
 <details>
    <summary>Use Case Diagram</summary>
-   <p>![Use Case Diagram](use_case_diagram.png "Use Case Diagram")</p>
+   <p>![Use Case Diagram](https://github.com/Quan25/Jukebox/blob/master/use_case_diagram.png "Use Case Diagram")</p>
 </details>
 <details>
    <summary>Class Diagram</summary>
-   <p>![Class Diagram](class_diagram.png "Class Diagram")</p>
+   <p>![Class Diagram](https://github.com/Quan25/Jukebox/blob/master/class_diagram.png "Class Diagram")</p>
 </details>
 <details>
    <summary>Sequence Diagram</summary>
-   <p>![Sequence Diagram](sequence_diagram.png "Sequence Diagram")</p>
+   <p>![Sequence Diagram](https://github.com/Quan25/Jukebox/blob/master/sequence_diagram.png "Sequence Diagram")</p>
 </details>
