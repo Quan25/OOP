@@ -34,7 +34,23 @@ To provide a mechanism for owners, record companies and artists to earn a profit
    <summary>Sequence Diagram</summary>
    <p><img src='diagrams/sequence_diagram1.png' alt='Use Case Diagram'/></p>
 </details>
+# UnitTests
+- The unit tests are designed as the following simple diagram
 
++-----------------------+   +-----------------------+  +---------------------+
+|  Database Module      |   |      Song Module      |  |    Jukebox Module   |
++-----------------------+   +-----------------------+  +---------------------+
++-----------------------+   +-----------------------+  +---------------------+
+| Test Database Moduel  |   |    Test Song Module   |  | Test Jukebox Module |
++-----------------------+   +-----------------------+  +---------------------+
+                            +----------------------+
+                            |      Test Suite      |
+                            +----------------------+
+                            +----------------------+
+                            |  Test Suite Runner   |
+                            +----------------------+
+
+Jukebox
 # How to Run
 1. Add javazoom package the classpath
 ```
