@@ -50,7 +50,7 @@ To provide a mechanism for owners, record companies and artists to earn a profit
                             |  Test Suite Runner   |
                             +----------------------+
 ```
-Jukebox
+
 # How to Run
 1. Add javazoom package the classpath
 ```
