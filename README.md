@@ -52,6 +52,7 @@ To provide a mechanism for owners, record companies and artists to earn a profit
                             |  Test Suite Runner   |
                             +----------------------+
 ```
+- All the tests file can be found under (Tests)[https://github.com/Quan25/Jukebox/tree/master/Tests] folder
 # How to Run
 1. Add javazoom package the classpath
 ```
