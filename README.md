@@ -53,6 +53,8 @@ To provide a mechanism for owners, record companies and artists to earn a profit
                             +----------------------+
 ```
 - All the tests file can be found under [Tests](https://github.com/Quan25/Jukebox/tree/master/Tests) folder
+- Sample running output after running the test
+<p><img src='Tests/testsresult.png' alt='Use Case Diagram'/></p>
 # How to Run
 1. Add javazoom package the classpath
 ```
