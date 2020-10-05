@@ -37,7 +37,21 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 
 # UnitTests
 - The unit tests are designed as the following simple diagram
+```
 
++-----------------------+   +-----------------------+  +---------------------+
+|  Database Module      |   |      Song Module      |  |    Jukebox Module   |
++-----------------------+   +-----------------------+  +---------------------+
++-----------------------+   +-----------------------+  +---------------------+
+| Test Database Moduel  |   |    Test Song Module   |  | Test Jukebox Module |
++-----------------------+   +-----------------------+  +---------------------+
+                            +----------------------+
+                            |      Test Suite      |
+                            +----------------------+
+                            +----------------------+
+                            |  Test Suite Runner   |
+                            +----------------------+
+```
 # How to Run
 1. Add javazoom package the classpath
 ```
