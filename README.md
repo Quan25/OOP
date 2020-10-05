@@ -1,14 +1,19 @@
-# Jukebox
+# OOA / OOD / OO Programming / OO QA
+
+
+
+
+## Jukebox
 
 <p align="center">
   <img src='juke_box.jpg' alt='Jukebox image'/>
 </p>
 
-# Description
+## Description
 - Design a Juke Box that allows customers to select songs they want played or to submit a play list that they have already created previously. If a request is made for song that is not contained by a local Juke Box, it will query for that song from other Jukeboxes elsewhere in the country - thus they are networked. Although reminiscent of Napster, like the original jukebox, we want to provide a mechanism for owners, record companies and artists to earn a profit. Therefore, for this Juke Box we want to provide not only a coin drop and cash feed mechanism, but also a card swipe mechanism and a cell dial payment capability.
 
 
-# Juke Box spec
+## Juke Box spec
 
 Allow customers to
 - select songs they want to play.
@@ -21,7 +26,7 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 - A card swipe mechanism
 - A cell dial payment capability.
 
-# Diagrams
+## Diagrams
 <details>
    <summary>Use Case Diagram</summary>
    <p><img src='diagrams/use_case_diagram1.png' alt='Use Case Diagram'/></p>
@@ -35,7 +40,7 @@ To provide a mechanism for owners, record companies and artists to earn a profit
    <p><img src='diagrams/sequence_diagram1.png' alt='Use Case Diagram'/></p>
 </details>
 
-# UnitTests
+## UnitTests
 - The unit tests are designed as the following simple diagram
 ```
 
@@ -59,7 +64,7 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 <p><img src='Tests/testsresult.png' alt='Use Case Diagram'/></p>
 </details>
 
-# How to Run
+## How to Run
 ### Program
 1. Add javazoom package the classpath
 ```
