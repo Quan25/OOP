@@ -60,6 +60,7 @@ To provide a mechanism for owners, record companies and artists to earn a profit
 </details>
 
 # How to Run
+### Program
 1. Add javazoom package the classpath
 ```
   export CLASSPATH=$CLASSPATH:path/to/Jukebox/JLayer1.0.1/jl1.0.1.jar
@@ -70,3 +71,10 @@ To provide a mechanism for owners, record companies and artists to earn a profit
   export CLASSPATH=$CLASSPATH:path/to/Jukebox/
 ```
 4. Run `java Jukebox` to see the output
+### Unit tests
+1. cd to Tests folder
+```
+  cd Tests
+```
+2. Run `javac *.java` to compile the tests
+3. Run `java JBTestSuiteRunner` to see the output
