@@ -50,11 +50,11 @@ public class Jukebox {
    //Driver
    public static void main(String[] args){
      Song song1=new Song("crickets sounds", "Unknown artist",
-           "Unknown album", "Crickets.mp3", "Mp3", 214);
+           "Unknown album", "Songs/Crickets.mp3", "Mp3", 214);
      Song song2=new Song("iphone ringtone", "Unknown artist",
-           "Unknown album", "iphone-ringtone.mp3", "Mp3", 215);
+           "Unknown album", "Songs/iphone-ringtone.mp3", "Mp3", 215);
      Song song3=new Song("crickets sounds 1", "Unknown artist",
-           "Unknown album", "Crickets.mp3", "Mp3", 214);
+           "Unknown album", "Songs/Crickets.mp3", "Mp3", 214);
       List<Song> tempSongList= new ArrayList<Song>();
       tempSongList.add(song1);
       tempSongList.add(song2);

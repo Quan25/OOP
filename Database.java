@@ -36,9 +36,11 @@ private List<Song> songList;
          songList.remove(song);
       }
    }
+
    public void removeSong(int index){
-         songList.remove(index);
+     songList.remove(index);
    }
+
    private void trace(String s){
       System.out.println(s);
    }
@@ -63,24 +65,24 @@ private List<Song> songList;
       //Driver
       public static void main(String[] args){
          Song song1=new Song("crickets sounds", "Unknown artist",
-               "Unknown album", "Crickets.mp3", "Mp3", 214);
+               "Unknown album", "Songs/Crickets.mp3", "Mp3", 214);
          Song song2=new Song("iphone ringtone", "Unknown artist",
-               "Unknown album", "iphone-ringtone.mp3", "Mp3", 215);
+               "Unknown album", "Songs/iphone-ringtone.mp3", "Mp3", 215);
          Song song3=new Song("crickets sounds 1", "Unknown artist",
-               "Unknown album", "Crickets.mp3", "Mp3", 214);
+               "Unknown album", "Songs/Crickets.mp3", "Mp3", 214);
          List<Song> tempSongList= new ArrayList<Song>();
          tempSongList.add(song2);
          tempSongList.add(song1);
 
          Database tempDB= new Database(tempSongList);
          tempDB.toString();
-         System.out.println("\nAdding Song ");
-         tempDB.addSong(song3);
-         tempDB.toString();
-         System.out.println("Playing Complete SongList");
-         tempDB.play();
-
-         System.out.println("Playing Song @ index 2");
-         tempDB.play(2);
+         // System.out.println("\nAdding Song ");
+         // tempDB.addSong(song3);
+         // tempDB.toString();
+         // System.out.println("Playing Complete SongList");
+         // tempDB.play();
+         //
+         // System.out.println("Playing Song @ index 2");
+         // tempDB.play(2);
       }
 }

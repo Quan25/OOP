@@ -104,7 +104,7 @@ public class Song {
       public static void main(String[] args){
          System.out.println("Creating Song Object");
          Song song1=new Song("crickets sounds", "Unknown artist",
-               "Unknown album", "Crickets.mp3", "Mp3", 214);
+               "Unknown album", "Songs/Crickets.mp3", "Mp3", 214);
          System.out.println("Playing Song");
          song1.play();
 
